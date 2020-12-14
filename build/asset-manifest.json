@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ripsit12/static/css/main.42512cd8.chunk.css",
+    "main.js": "/ripsit12/static/js/main.2cd71b2d.chunk.js",
+    "main.js.map": "/ripsit12/static/js/main.2cd71b2d.chunk.js.map",
+    "runtime-main.js": "/ripsit12/static/js/runtime-main.a7b26208.js",
+    "runtime-main.js.map": "/ripsit12/static/js/runtime-main.a7b26208.js.map",
+    "static/js/2.9e22d2f9.chunk.js": "/ripsit12/static/js/2.9e22d2f9.chunk.js",
+    "static/js/2.9e22d2f9.chunk.js.map": "/ripsit12/static/js/2.9e22d2f9.chunk.js.map",
+    "static/js/3.87d07333.chunk.js": "/ripsit12/static/js/3.87d07333.chunk.js",
+    "static/js/3.87d07333.chunk.js.map": "/ripsit12/static/js/3.87d07333.chunk.js.map",
+    "index.html": "/ripsit12/index.html",
+    "static/css/main.42512cd8.chunk.css.map": "/ripsit12/static/css/main.42512cd8.chunk.css.map",
+    "static/js/2.9e22d2f9.chunk.js.LICENSE.txt": "/ripsit12/static/js/2.9e22d2f9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ripsit12/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7b26208.js",
+    "static/js/2.9e22d2f9.chunk.js",
+    "static/css/main.42512cd8.chunk.css",
+    "static/js/main.2cd71b2d.chunk.js"
+  ]
+}
