@@ -20,6 +20,14 @@ const Books = [
         "score": 8,
     },
     {
+      "name":"Солярис",
+      "author":"Станислав Лем",
+      "year": 1961,
+      "publisher": "PLK",
+      "genre": "Научная фантастика",
+      "score": 7,
+    },
+    {
       "name":"Лунный камень",
       "author":"Уилки Коллинз",
       "year": 1866,
@@ -28,13 +36,22 @@ const Books = [
       "score": 9,
   },
   {
-    "name":"Рассказы о Шерклоке Холмсе",
-    "author":"Артур Конан Дойл",
-    "year": 1927,
-    "publisher": "ЭКСМО",
-    "genre": "Детектив",
-    "score": 7,
-},
+    "name":"451 по Фаренгейту",
+    "author":"Рей Брэдбери",
+    "year": 1953,
+    "publisher": "Ballantine Books",
+    "genre": "Научная фантастика",
+    "score": 8,
+  },
+  {
+    "name":"JavaScript & jQuery",
+    "author":"Jon Duckett",
+    "year": 2015,
+    "publisher": "Wiley",
+    "genre": "Учебное пособие",
+    "score": 5,
+  },
+  
 {
   "name":"Ребекка",
   "author":"Дафна Дюморье",
@@ -42,6 +59,14 @@ const Books = [
   "publisher": "ЭКСМО",
   "genre": "Детектив",
   "score": 6,
+},
+{
+  "name":"О дивный новый мир",
+  "author":"Олдос Хаксли",
+  "year": 1932,
+  "publisher": "Chatto & Windus",
+  "genre": "Научная фантастика",
+  "score": 9,
 },
 {
   "name":"Путь к изучению JavaScript",
@@ -52,20 +77,12 @@ const Books = [
   "score": 7,
 },
 {
-  "name":"JavaScript & jQuery",
-  "author":"Jon Duckett",
-  "year": 2015,
-  "publisher": "Wiley",
-  "genre": "Учебное пособие",
-  "score": 5,
-},
-{
-  "name":"JavaScript: The Good Parts",
-  "author":" Douglas Crockford",
-  "year": 2016,
-  "publisher": "O’Reilly",
-  "genre": "Учебное пособие",
-  "score": 8,
+  "name":"Рассказы о Шерклоке Холмсе",
+  "author":"Артур Конан Дойл",
+  "year": 1927,
+  "publisher": "ЭКСМО",
+  "genre": "Детектив",
+  "score": 7,
 },
     {
         "name":"Основы алгоритмизации и программирования на Python",
@@ -74,6 +91,14 @@ const Books = [
         "publisher": "Моспечать",
         "genre": "Учебное пособие",
         "score": 10,
+    },
+    {
+      "name":"JavaScript: The Good Parts",
+      "author":" Douglas Crockford",
+      "year": 2016,
+      "publisher": "O’Reilly",
+      "genre": "Учебное пособие",
+      "score": 8,
     },
 ]
 
@@ -93,7 +118,7 @@ let rows = [
 
 ];
 
-for (var i = 0; i<8; i++){
+for (var i = 0; i<11; i++){
   rows.push(createData(Books[i].name,Books[i].author,Books[i].year, Books[i].publisher,Books[i].genre, Books[i].score))
 }
 
@@ -149,7 +174,7 @@ const BookTable = (props) => {
 
   ];
   
-  for (var i = 0; i<8; i++){
+  for (var i = 0; i<11; i++){
     rows.push(createData(Books[i].name,Books[i].author,Books[i].year, Books[i].publisher,Books[i].genre, Books[i].score))
   }
   return(
